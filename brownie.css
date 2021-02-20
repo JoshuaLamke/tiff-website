@@ -1,0 +1,34 @@
+* {
+    font-family: 'Cedarville Cursive', cursive;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+body{
+    background-color: rgb(121, 31, 65);
+    color: white;
+}
+p {
+    font-size: 20px;
+}
+.btn {
+    position: absolute;
+    top: -40px;
+    right: 30px;
+}
+@media Screen and (max-width: 550px){
+    img{
+        width: 90%;
+    }
+    #button-under{
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-bottom: 20px;
+    }
+}

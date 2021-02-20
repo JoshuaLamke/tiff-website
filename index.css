@@ -1,0 +1,88 @@
+* {
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: rgb(41, 38, 37);
+}
+#tutu,#cookie {
+    width: 500px;
+    height: auto;
+}
+.btn {
+    position: absolute;
+    top: -40px;
+    right: 30px;
+}
+body,html{
+    background-color: rgb(41, 38, 37);
+}
+#container {
+    background-color: rgb(41, 38, 37);
+}
+h1 {
+    color: goldenrod;
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#side-side{
+    display: flex;
+    justify-content: space-between;
+}
+#sentence {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: goldenrod;
+}
+#dog{
+    width: 1000px;
+    height: auto;
+}
+#oreopup {
+    display: flex;
+    justify-content: flex-end;
+}
+div {
+    display: flex; 
+}
+#poop{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: goldenrod;
+}
+#crop{
+    overflow: hidden;
+    width: 500px;
+}
+p {
+    font-size: 20px;
+}
+#cookie-center{
+    display: flex;
+    padding-top: 10vh;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    color: goldenrod;
+}
+@media Screen and (max-width: 550px) {
+    #tutu, #cookie{
+        width: 90%;
+    }
+    #crop{
+        width: 90%;
+    }
+    #dog{
+        width: 180%;
+    }
+    #button-under{
+        display: flex;
+        justify-content: center;
+    }
+    .btn{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-bottom: 20px;
+    }
+}
