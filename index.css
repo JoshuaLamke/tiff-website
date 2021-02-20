@@ -34,7 +34,7 @@ h1 {
     color: goldenrod;
 }
 #dog{
-    width: 1000px;
+    width: 500px;
     height: auto;
 }
 #oreopup {
@@ -48,10 +48,6 @@ div {
     margin-left: 2vw;
     margin-right: 2vw;
     color: goldenrod;
-}
-#crop{
-    overflow: hidden;
-    width: 500px;
 }
 p {
     font-size: 20px;
@@ -69,12 +65,11 @@ p{
     #tutu, #cookie{
         width: 90%;
     }
-    #crop{
-        width: 95%;
+    
+    #dog {
+        width: 90%;
     }
-    #dog{
-        width: 200%;
-    }
+
     #button-under{
         display: flex;
         justify-content: center;
